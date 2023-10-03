@@ -1,14 +1,14 @@
 {
-  "name": "zotero-addon-template",
-  "version": "1.0.0",
-  "description": "Zotero Addon Template",
+  "name": "zotero-super-note",
+  "version": "0.0.1",
+  "description": "使zotero可以与vscode联动做笔记",
   "config": {
-    "addonName": "Zotero Addon Template",
-    "addonID": "addontemplate@euclpts.com",
+    "addonName": "Zotero笔记增强",
+    "addonID": "ZoteroNoteByMuyu",
     "addonRef": "addontemplate",
     "addonInstance": "AddonTemplate",
     "prefsPrefix": "extensions.zotero.addontemplate",
-    "releasePage": "https://github.com/windingwind/zotero-addon-template/releases",
+    "releasePage": "",
     "updateJSON": "https://raw.githubusercontent.com/windingwind/zotero-addon-template/main/update.json",
     "updateBetaJSON": "https://raw.githubusercontent.com/windingwind/zotero-addon-template/main/update-beta.json"
   },
