@@ -29,6 +29,7 @@ export class BasicExampleFactory {
         ids: number[] | string[],
         extraData: { [key: string]: any },
       ) => {
+        ztoolkit.log(`event: ${event}+type: ${type}`);
         if (!addon?.data.alive) {
           this.unregisterNotifier(notifierID);
           return;
