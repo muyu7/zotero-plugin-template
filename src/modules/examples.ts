@@ -964,4 +964,14 @@ export class HelperExampleFactory {
   static vtableExample() {
     ztoolkit.getGlobal("alert")("See src/modules/preferenceScript.ts");
   }
+
+  static printAllWinNames(){
+    const allWindow = Zotero.getMainWindows();
+		for (const val11 of allWindow) {
+			if (!val11.ZoteroPane) continue;
+			console.log();
+		}
+  }
 }
+
+
